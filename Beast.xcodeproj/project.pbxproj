@@ -16,6 +16,8 @@
 		AEE547B725231CA5009F024A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEE547B525231CA5009F024A /* LaunchScreen.storyboard */; };
 		AEE547C225231CA5009F024A /* BeastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE547C125231CA5009F024A /* BeastTests.swift */; };
 		AEE547CD25231CA5009F024A /* BeastUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE547CC25231CA5009F024A /* BeastUITests.swift */; };
+		AEE547E42523B039009F024A /* Workouts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEE547E32523B039009F024A /* Workouts.storyboard */; };
+		AEE547EC2523B063009F024A /* Today.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEE547EB2523B063009F024A /* Today.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		AEE547C825231CA5009F024A /* BeastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEE547CC25231CA5009F024A /* BeastUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeastUITests.swift; sourceTree = "<group>"; };
 		AEE547CE25231CA5009F024A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEE547E32523B039009F024A /* Workouts.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Workouts.storyboard; sourceTree = "<group>"; };
+		AEE547EB2523B063009F024A /* Today.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Today.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		AEE547A625231CA4009F024A /* Beast */ = {
 			isa = PBXGroup;
 			children = (
+				AEE547DD2523AFFE009F024A /* Screens */,
 				AEE547A725231CA4009F024A /* AppDelegate.swift */,
 				AEE547A925231CA4009F024A /* SceneDelegate.swift */,
 				AEE547AB25231CA4009F024A /* ViewController.swift */,
@@ -129,6 +134,31 @@
 				AEE547CE25231CA5009F024A /* Info.plist */,
 			);
 			path = BeastUITests;
+			sourceTree = "<group>";
+		};
+		AEE547DD2523AFFE009F024A /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				AEE547DF2523B01A009F024A /* Workouts */,
+				AEE547DE2523B007009F024A /* Today */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		AEE547DE2523B007009F024A /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				AEE547EB2523B063009F024A /* Today.storyboard */,
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
+		AEE547DF2523B01A009F024A /* Workouts */ = {
+			isa = PBXGroup;
+			children = (
+				AEE547E32523B039009F024A /* Workouts.storyboard */,
+			);
+			path = Workouts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +264,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEE547E42523B039009F024A /* Workouts.storyboard in Resources */,
+				AEE547EC2523B063009F024A /* Today.storyboard in Resources */,
 				AEE547B725231CA5009F024A /* LaunchScreen.storyboard in Resources */,
 				AEE547B425231CA5009F024A /* Assets.xcassets in Resources */,
 				AEE547AF25231CA4009F024A /* Main.storyboard in Resources */,
